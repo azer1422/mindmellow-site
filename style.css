@@ -2,7 +2,7 @@
 :root {
   --bg: #F7F5F1; --surface: #FDFCFA; --surface-raised: #FFFFFF;
   --border: #E3DFD7; --text: #211F28; --text-dim: #5B5666; --text-faint: #6F6A7C;
-  --accent: #5F7E5C; --accent-strong: #4A6448; --accent-soft: rgba(95;
+  --accent: #5F7E5C; --accent-strong: #4A6448; --accent-soft: rgba(95, 126, 92, 0.10);
   --on-accent: #FFFFFF; --ink: #0E0D12; --snow: #F4F2F7; --fog: #A9A4B5;
   --r-sm: 10px; --r-md: 14px; --r-lg: 20px; --r-xl: 28px; --r-pill: 999px;
   --shadow-raised: 0 8px 24px rgba(14, 13, 18, 0.16);
