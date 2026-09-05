@@ -37,7 +37,7 @@ strong { font-weight: 600; color: var(--text); }
 .btn { display: inline-flex; align-items: center; gap: 10px; background: var(--accent); color: var(--on-accent); text-decoration: none; font-weight: 600; padding: 14px 22px; border-radius: var(--r-pill); margin-top: 18px; }
 .btn:hover { background: var(--accent-strong); }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 28px 0; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 28px 0; }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 20px; }
 .card p { margin: 0; color: var(--text-dim); font-size: 15px; }
 
@@ -52,4 +52,4 @@ footer a { color: var(--text-dim); text-decoration: none; }
 .legal h2 { font-size: 19px; margin-top: 34px; }
 .legal p { font-size: 16.5px; }
 .legal .meta { color: var(--text-dim); margin-top: -4px; }
-@media (max-width: 640px) { .hero { grid-template-columns: 1fr; } h1 { font-size: 32px; } }
+@media (max-width: 640px) { .hero, .grid { grid-template-columns: 1fr; } h1 { font-size: 32px; } }
